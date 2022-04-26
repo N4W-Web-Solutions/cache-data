@@ -30,4 +30,4 @@ class Cache {
     }
 }
 
-exports = Cache
+export default Cache
