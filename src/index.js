@@ -1,7 +1,8 @@
+'user strict';
 class Cache {
-    constructor () {
+    constructor (o) {
         this.records = []
-        this.minutesToExpires = 5
+        this.minutesToExpires = o.minToCache || 5
     }
     model (obj) {
         return {
@@ -30,4 +31,4 @@ class Cache {
     }
 }
 
-export default Cache
+module.exports = Cache;
