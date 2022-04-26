@@ -26,6 +26,9 @@ cache.exists(cacheKey)
 
 // Verify if is expired:
 cache.isExpired(cacheKey)
+
+// Get from cache:
+cache.get(cacheKey)
 ```
 
 ## License
